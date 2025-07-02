@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(header-image.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 2% 150px;
+}
+.logo{
+    width: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#lang{
+    color: #fff;
+    padding: 5% 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    align-items: center;
+    background: transparent;
+}
+#lang option{
+    color: black;
+}
+#sign{
+    color: white;
+    background-color: #db0001;
+    width: 75.92px;
+    height: 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#sign:hover{
+    background-color: #8d0202;
+}
+.title{
+    color: white;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+}
+#main-heading{
+    font-size: 60px;
+    font-weight: bolder;
+}
+#main-heading2{
+    margin-top: 20px;
+}
+#main-para{
+    margin-top: 30px;
+    font-size: large;
+    margin-bottom: 5px;
+}
+.email-singup{
+    margin-top: 20px;
+}
+#email{
+    background: transparent;
+    margin-top: 10px;
+    width: 370px;
+    margin-left: 10px;
+    height: 55px;
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+#email-type{
+    color: white;
+}
+#email::placeholder{
+    color: rgb(192, 183, 183);
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 15px;
+}
+#get-strt{
+    background-color: #db0001;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+}
+
+#get-strt:hover{
+    background-color: #8d0202;
+}
+.bg{
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1));
+}
+.body{
+    margin-left:150px;
+    margin-right: 150px;
+    height: 100vh;
+}
+#trend{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding-top: 40px;
+}
+.form2{
+    padding-top: 15px;
+}
+#version{
+    background-color:#413f3f;
+    color: #fff;
+    padding: 5px 5px;
+    padding-right: 10px;
+    border-radius: 2px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+#watch{
+    background-color: #333333;
+    color: #fff;
+    padding: 5px 5px;
+    padding-right: 10px;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+.box{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+.box img:hover{
+    transform: scale(1.05);
+
+}
+body{
+    background-color: black;
+}
+.features{
+    display: flex;
+}
+.card{
+    height: 215px;
+    width: 300px;
+  background: linear-gradient(145deg, #1a1a2e, #282846);
+  border-radius: 16px;
+ margin: 20px;
+    text-align: start;
+    padding: 20px 15px;
+}
+.icon1{
+    background-image: url(comp-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    height: 85px;
+    width: 50px;
+}
+.icon2{
+    background-image: url(download__1_-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    height: 85px;
+    width: 70px;
+}
+.icon3{
+    background-image: url(pop-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    height: 85px;
+    width: 50px;
+}
+.icon4{
+    background-image: url(glowing-neon-create-account-screen-icon-isolated-vector-44427573-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    height: 85px;
+    width: 70px;
+
+}
+#freq{
+    color: white;
+    font-size: x-larger;
+    margin-top: 40px;
+}
+.freqq{
+    height: 80px;
+    width: 100%;
+    background-color: #353232;
+    margin-top: 20px;
+    border: 0;
+    margin: 10px;
+    font-size: 19px;
+    font-weight: lighter;
+    cursor: default;
+    padding: 30px 30px;
+}
+.freqq:hover{
+    background-color: #5a5757;
+}
+#q1{
+    color: #fff;
+    font-weight: lighter;
+}
+#q1::after{
+    content: '+';
+    float: right;
+}
+#q2{
+    color: #fff;
+    font-weight: lighter;
+}
+#q2::after{
+    content: '+';
+    float: right;
+}
+#q3{
+    color: #fff;
+    font-weight: lighter;
+}
+#q3::after{
+    content: '+';
+    float: right;
+}
+#q4{
+    color: #fff;
+    font-weight: lighter;
+}
+#q4::after{
+    content: '+';
+    float: right;
+}
+#q5{
+    color: #fff;
+    font-weight: lighter;
+}
+#q5::after{
+    content: '+';
+    float: right;
+}
+#q6{
+    color: #fff;
+    font-weight: lighter;
+}
+#q6::after{
+    content: '+';
+    float: right;
+}
+.last{
+    text-align: center;
+}
+#last-heading{
+    color: #fff;
+    margin-top: 100px;
+}
+#last-email{
+    background-color:transparent;
+    border: 2px solid grey;
+    display: flex;
+    width: 370px;
+    height: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 4px;
+
+}
+#last-email::placeholder{
+    color: grey;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+input,select,textarea{
+    color: white;
+    font-size: 19px;
+}
+#last-button{
+    height: 50px;
+    width: 200px;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+    background-color: #db0001;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+#last-button:hover{
+    background-color: #8d0202;
+}
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    padding: 5px;
+    list-style: none;
+}
+.last-lang{
+    margin-top: 50px;
+    color: white;
+    background-color: #353232;
+    border: 1px solid grey;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.last-lang option{
+background-color: white;
+color: black;
+cursor: default;
+}
+#last-para{
+    color: grey;
+    margin-left: 10px;
+    text-decoration: none;
+    padding-bottom: 100px;
+}   
